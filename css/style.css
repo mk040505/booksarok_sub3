@@ -70,7 +70,6 @@ h2{
 	text-align: center;
 }
 .banner_box{
-	width:1920px;
 	height: 600px;
 	background-image: url(../images/banner/banner.jpg);
 	background-repeat: no-repeat;
@@ -187,6 +186,7 @@ th,td{
 	border: 1px solid #ccc;
 	height: 26px;
 	padding: 0 5px;
+	outline-style: none;
 }
 .form input[type="button"]{ 
 	background-color:  #555555;
