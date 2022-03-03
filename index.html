@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=1320">
+		<title>도서등록</title>
+		<link rel="icon" type="image/png" sizes="32x32" href="images/favicon.png">
+		<link href="css/style.css" rel="stylesheet" type="text/css">
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+			
+	</head>
+	<body>
+		<div class="header">
+			<h1><img src="images/header/logo_bg.png" alt=""></h1>
+			<h2><a href="javascript:return false;"><img src="images/header/logo.png" alt=""></a></h2>
+	</div>
+	<div id="gnb_wrap">
+		<ul id="gnb">
+			<li><a href="javascript:return false;">회사소개</a></li>
+			<li><a href="javascript:return false;">중고도서검색</a></li>
+			<li><a href="javascript:return false;">도서등록</a></li>
+			<li><a href="javascript:return false;">이벤트</a></li>
+			<li><a href="javascript:return false;">마이페이지</a></li>
+			<li><a href="javascript:return false;">고객센터</a></li>
+		</ul>
+	</div>
+
+	<div id="banner_wrap">
+		  <div class="banner_box">
+			<p class="banner_icon"><img src="images/banner/banner_icon.png" alt=""></p>
+			<p class="banner_title"><img src="images/banner/banner_title.png" alt=""></p>
+			<p class="banner_text">Search for used books</p>
+		 </div>
+	</div>	
+
+
+	<div id="section1"><!--중고도서등록-->
+		<h3>중고도서등록</h3>
+		<div class="section1_box">
+			<div class="section1_box_A">
+				<div class="section1_box_A_icon">
+						<p class="section1_box_A_icon_1"><img src="images/section1/book.png" alt=""></p>
+						<p class="section1_box_A_icon_2">첨부할도서 이미지 드래그 또는 업로드</p>
+						<a href="javascript:return false;">이미지업로드</a>
+				</div>
+				<p class="section1_box_A_text">* 첨부파일 당 최대 10MB까지 업로드 가능합니다.</p>
+			</div>
+
+			<div class="section1_box_B">
+				<p class="section1_box_B_text">상세정보입력</p>
+				<form action="#" class="form">
+					<table>
+						<tr> <!--1-->
+							<th><label for="">도서명</label></th>
+							<td>
+								<input type="text" size="20">
+								<input type="button" value="검색">
+							</td>
+						</tr>
+						<tr> <!--2-->
+							<th><label for="">저자명</label></th>
+							<td><input type="text" size="20"></td>
+						</tr>
+						<tr> <!--3-->
+							<th><label for="">출판사명</label></th>
+							<td><input type="text" size="20"></td>
+						</tr>
+						<tr> <!--4-->
+							<th><label for="">정가</label></th>
+							<td><input type="text" size="12"></td>
+						</tr>
+						<tr> <!--5-->
+							<th><label for="">품질등급</label></th>
+							<td>
+								<input type="radio" style="vertical-align: middle;" value="yes" checked name="agree"> 
+								<label for="" class="space">최상</label> 	
+								<input type="radio" style="vertical-align: middle;" value="no" name="agree">  
+								<label for="" class="space">상</label> 
+								<input type="radio" style="vertical-align: middle;" value="no" name="agree">  
+								<label for="">하</label> 
+							</td>
+						</tr>
+						<tr> <!--6-->
+							<th><label for="">판매가</label></th>
+							<td><input type="text" size="12">
+						</tr>
+					</table>
+					
+						<p class="section1_box_B_text2">※ 안내사항</p>
+						<ul class="manual">
+							<li><span>증정도서는 판매되지 않습니다. 증정도서가 있는지 살펴봐주세요.</span></li>
+							<li>신청 내용과 다르면 판매가가 변경되거나 판매취소 될 수 있습니다.
+								<a href="javascript:return false;">품질등급&매입가 안내 ></a></li>
+							<li>판매가와 판매가능 여부는 상황에 따라 실시간으로 변경되오니, 판매 확정단계에서 판매가와 
+								<br>판매 가능 여부가 바뀔 수 있습니다.</li>	
+							<li>북새록에 도서등록 이후, 20일 이내에 택배사에서 픽업을 하지 않은 신청건은 자동 취소됩니다.</li>
+						</ul>
+						<a href="javascript:return false;" class="btn">등록</a>
+				
+			</div>
+	</div>
+
+	</div>
+
+
+	
+	<div id="section2"><!--중고도서 품질등급 안내-->
+		<h4>중고도서 품질등급 안내</h4>
+		<div class="section2_box">
+			<ul class="section2_grade">
+				<li>
+					<div class="bg_grade">
+						<a href="javascript:return false;">
+							<p><img src="images/section2/grade_1.png" alt=""></p>
+						 </a>
+					</div>						
+					<p class="grade_name">최상</p>
+					<p class="grade_content">새것에 가까운 책
+						<br>변색없음,낙서없음
+						<br>얼룩없음,접힌 흔적 없음
+						<br>제본 탈착 없음</pbook_name>
+				</li>
+				<li>
+					<div class="bg_grade">
+						<a href="javascript:return false;">
+							<p><img src="images/section2/grade_2.png" alt=""></p>
+						 </a>
+					</div>	
+					<p class="grade_name">상</p>
+					<p class="grade_content">사용감은 있으나 깨끗한 책
+						<br>희미한 벽색, 작은 얼룩 있음
+						<br>약간의 모서리 해짐
+						<br>제본 탈착 없음</p>
+				</li>
+				<li>
+					<div class="bg_grade">
+						<a href="javascript:return false;">
+							<p><img src="images/section2/grade_3.png" alt=""></p>
+						 </a>
+					</div>	
+					<p class="grade_name">중</p>
+					<p class="grade_content">사용감이 많고 헌 느낌의 책
+						<br>전체적인 변색, 오염있음
+						<br>접힌 흔적 있음, 낙서 있음
+						<br>제본 탈착 없음</p>
+				</li>
+				<li>
+					<div class="bg_grade">
+						<a href="javascript:return false;">
+							<p><img src="images/section2/grade_3.png" alt=""></p>
+						 </a>
+					</div>	
+					<p class="grade_name"><span>매입불가</span></p>
+					<p class="grade_content">독서에 지장이 있는 책
+						<br>증정 도서/비매품
+						<br>심한 찢어짐,물에 젖은 흔적
+						<br>제본 탈착 및 분책된 경우</p>								
+				</li>
+			</ul>
+		</div>
+	</div>
+
+	
+	<div id="section3"><!--도서 발송방법 안내 -->
+		<h5>도서 발송방법 안내</h5>
+		<p class="section3_title">중고도서, 북새록에 이렇게 판매하세요.</p>
+		<div class="section3_photo_box">
+			<ul class="section3_icon">
+				<li class="bg_g">
+					<img src="images/section3/icon_1.png" alt="">
+					<p>중고도서 등록폼 작성 후 
+						<br>판매신청서 프린트하기</p>
+				</li>
+				<li>
+					<img src="images/section3/icon_arrow.png" alt="">
+				</li>
+
+				<li class="bg_g">
+					<img src="images/section3/icon_2.png" alt="">
+					<p>판매할 도서를 
+						<br>상자에 넣어 포장하기</p>
+				</li>
+				<li>
+					<img src="images/section3/icon_arrow.png" alt="">
+				</li>
+
+				<li class="bg_g">
+					<img src="images/section3/icon_3.png" alt="">
+					<p>택배기사방문 또는 
+						<br>편의점에 맡기기</p>
+				</li>
+				<li>
+					<img src="images/section3/icon_arrow.png" alt="">
+				</li>
+
+				<li class="bg_g">
+					<img src="images/section3/icon_4.png" alt="">
+					<p>판매 신청 완료, 
+					  <br>판매 후 정산 확인하기</p>
+				</li>
+			</ul>
+		</div>		
+		<div class="section3_text_box">
+			<p class="section3_text_1">※ 북새록 도서발송방법 상세 안내</p>
+			<p class="section3_text_2">
+				<span>1. 중고도서 등록 후 포장하기</span>
+				<br>중고도서 등록 후 프린트한 판매 신청서와 보낼 상품을 한 박스에 담아 포장해주세요. (단, 프린터가 없는 경우에는 빈종이에 접수번호만 적어서 보내주세요.)
+				<br>	박스당 최대 20권, 포장 박스 세 변(가로, 세로, 높이)의 길이 합이 80cm, 중량 기준 10Kg 이하로 포장해주세요. 규격 초과시 위탁 및 회수가 불가합니다.
+			</p>
+			<p class="section3_text_2">
+				<span>2. 배송비</span>
+				<br>	지정 택배사 방문 회수 : 박스당 1,500원입니다. (단, 박스당 1만원 이상의 상품을 판매할 경우 배송료 무료입니다.)
+				<br>	지정 편의점 위탁 : 박스당 2,500원입니다. (단, 박스당 1만원 이상의 상품을 판매할 경우 배송료 1,000원입니다.)
+				<br>	1건 신청 후 실제로 여러 박스로 보내시면 도착 후 실제 박스 수량만큼 배송비가 추가로 계산되어 정산 지급금에서 차감됩니다.
+				<br>	배송비는 택배기사 또는 편의점에 직접 지불하지 않고, 정산시 자동 차감됩니다.
+			</p>	
+			<p class="section3_text_2">
+				<span>3. 지정 택배사 방문 회수</span>
+				<br>	박스 포장 후 기다리시면 신청 후 1~2일(단, 평일 기준) 내 기사님이 회수운송장을 지참해 방문합니다.
+				<br>	수령인(구매자) 성함과 운송장 성함 일치 여부를 확인한 후 인계해주세요. (단, 신청 후 30일 초과시 신청 자동 취소)
+			</p>	
+			<p class="section3_text_2">
+				<span>4. 지정 편의점 위탁</span>
+				<br>	신청 후 20분 후 ~ 1주일 내 포장박스를 직접 인근 점포에 들러 위탁해주셔야 합니다. (1주일 경과시 신청 취소로 재신청 필요) 
+				<br>	편의점 방문시 위탁신청번호를 반드시 메모해 가셔서 신청번호를 이용해 쇼핑몰 거래 > 운송장 출력>포장박스 중량측정 후 운송장 부착해 점포에 맡겨주세요.
+			</p>
+			</div>	
+	</div>
+
+
+	<div id="section4"><!--바로가기 -->
+		<div class="section4_box">
+			<p class="section4_text">중고서점 북새록이 더 궁금하다면 ? 자세히 보러가기</p>
+			<p class="section4_arrow"><img src="images/section4/letgo_arrow.png" alt="보러가기"></p>
+			<p class="section4_logo"><a href="javascript:return false;"><img src="images/section4/letgo_logo.png" alt="보러가기"></a></p>
+		</div>
+	</div>
+
+
+	<!--footer-->
+
+	<ul class="footer_top">
+		<li><a href="javascript:return false;">모바일북새록</a></li>
+		<li><a href="javascript:return false;">바로 찾는 바로드림</a></li>
+		<li><a href="javascript:return false;">중고장터 스마트비교</a></li>
+		<li><a href="javascript:return false;">북새록 마일리지카드</a></li>
+		<li><a href="javascript:return false;">매장안내</a></li>
+	</ul>
+
+	<div id="footer_middle_wrap">
+		<div class="footer_middle">
+			<ul class="footer_middle_1">
+				<li class="none"><a href="#">회사소개</a></li>
+				<li><a href="javascript:return false;">이용약관</a></li>
+				<li><a href="javascript:return false;">개인정보처리방침</a></li>
+				<li><a href="javascript:return false;">청소년보호정책</a></li>
+				<li><a href="javascript:return false;">협력사여러분</a></li>
+				<li><a href="javascript:return false;">제휴ㆍ제한</a></li>
+				<li><a href="javascript:return false;">광고문의</a></li>
+				<li><a href="javascript:return false;">채용정보</a></li>
+			</ul>
+			<div class="footer_middle_2">
+				<p><a href="javascript:return false;">FAMILY SITE ▲</a></p>
+			</div>
+		</div>
+	</div>
+
+	<div id="footer_bottom_wrap">
+		<div class="footer_bottom">
+			<div class="footer_bottom_logo">
+				<img src="images/footer/footer_logo.png" alt="">
+			</div>
+			<div class="footer_bottom_text1">
+				<p>(주) 북새록   부산 중구 중앙동6가   대표이사:김민경
+						<br>사업자등록번호 : 012-345-67890
+						<br><span>대표전화 : 1544-0000 (발신자 부담전화</span>)  팩스 : 1544-000-0000 (지역번호공통)
+						<br>부산광역시 통신판매업신고번호 : 제 000호  ▶<a href="javascript:return false;">사업자정보확인</a>
+				</p>
+				<p>Copyright ⓒ <span>BOOKSALOK</span> Corp. All Rights Reserved.</p>
+			</div>
+			<div class="footer_bottom_text2">
+				<p>LG U+ 구매안전서비스   ▶<a href="javascript:return false;">서비스 가입 확인</a>
+						<br>고객님은 안전거래를 위해 현금 등으로 결제시 저희 쇼핑몰에서 가입한 LG유플러스의 구매
+						<br>안전서비스를 이용하실 수 있습니다.
+				</p>
+				<ul class="footer_bottom_isms">
+					<li><img src="images/footer/footer_isms.png" alt=""></li>
+					<li>정보보호관리체계
+						<br>ISMS 인증회득</li>
+					<li>[인증범위] 북새록 서비스 운영
+						<br>[유효기간] 2022.01.01. ~ 2025.12.31</li>
+				</ul>
+			
+			</div>
+		</div>
+	</div>
+
+	<!--top-->
+<div class="top fixed">
+	<a href="#"><img src="images/top.png" alt="top"></a>
+</div>
+
+
+	</body>
+</html>
+
+
+
+
+
