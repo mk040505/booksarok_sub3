@@ -188,6 +188,8 @@ th,td{
 	padding: 0 5px;
 	outline-style: none;
 }
+
+
 .form input[type="button"]{ 
 	background-color:  #555555;
 	color:#fff;
@@ -195,6 +197,7 @@ th,td{
 	padding: 0 20px;
 	border: 0;
 	cursor: pointer;  
+	display:inline-block;
 }
 .space{
 	padding-right: 30px;
