@@ -189,13 +189,13 @@ th,td{
 	outline-style: none;
 }
 
-
-.form input[type="button"]{ 
+.btn_A{
 	background-color:  #555555;
 	color:#fff;
 	height: 30px;
-	padding: 0 20px;
-	border: 0.1px solid #555;
+	padding: 1px 15px;
+	cursor: pointer; 
+	display:inline-block;
 }
 
 
@@ -221,7 +221,7 @@ th,td{
 	font-weight: bold;
 	text-decoration: underline;
 }
-.btn{
+.btn_B{
 	background-color:  #555555;
 	color:#fff;
 	height: 30px;
