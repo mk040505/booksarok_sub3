@@ -192,8 +192,8 @@ th,td{
 .btn_A{
 	background-color:  #555555;
 	color:#fff;
-	height: 30px;
-	padding: 1px 15px;
+	height:27px;
+	padding: 2px 15px;
 	cursor: pointer; 
 	display:inline-block;
 }
@@ -224,8 +224,8 @@ th,td{
 .btn_B{
 	background-color:  #555555;
 	color:#fff;
-	height: 30px;
-	padding: 1px 15px;
+	height: 27px;
+	padding: 2px 15px;
 	cursor: pointer; 
 	display:inline-block;
 	margin-top: 30px;
